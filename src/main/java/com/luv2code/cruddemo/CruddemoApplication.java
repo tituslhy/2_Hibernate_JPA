@@ -28,8 +28,8 @@ public class CruddemoApplication {
             // createMultipleStudents(studentDAO);
             // readStudent(studentDAO);
             // queryForStudents(studentDAO);
-            // queryForStudentsByLastName(studentDAO, "Doe");
-            updateStudent(studentDAO);
+            queryForStudentsByLastName(studentDAO, "Doe");
+            // updateStudent(studentDAO);
         };
     }
 
