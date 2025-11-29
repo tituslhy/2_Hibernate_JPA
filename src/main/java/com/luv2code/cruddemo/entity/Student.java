@@ -2,6 +2,9 @@ package com.luv2code.cruddemo.entity;
 
 import jakarta.persistence.*;
 
+/**
+ * Can also use Lombok to reduce the length of the codes needed.
+ */
 @Entity
 @Table(name="student")
 public class Student {
