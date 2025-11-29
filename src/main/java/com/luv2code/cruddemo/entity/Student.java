@@ -7,6 +7,7 @@ import lombok.*;
 @RequiredArgsConstructor
 @Getter
 @Setter
+@ToString
 @Entity
 @Table(name="student")
 public class Student {
@@ -28,13 +29,4 @@ public class Student {
     @Column(name="email")
     private String email;
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                '}';
-    }
 }
