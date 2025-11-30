@@ -38,4 +38,14 @@ public interface StudentDAO {
      */
     void update(Student theStudent);
 
+    /**
+     * D1: Delete a student given an iD. A delete method
+     * @param id
+     */
+    void delete(Integer id);
+
+    /**
+     * D2: Delete all students
+     */
+    int deleteAll();
 }
